@@ -6,6 +6,7 @@ SRC_URI = " \
     http://caml.inria.fr/pub/distrib/ocaml-4.04/ocaml-${PV}.tar.xz \
     file://oe-linux-configure.patch \
     file://shebang-use-env.patch \
+    file://alt-stack-sig.patch \
 "
 SRC_URI[md5sum] = "a230f5f352318575870abb326db7355b"
 SRC_URI[sha256sum] = "d158ed3e9446b300554baeaaa8cca2e9491420b505a9878940205074e2970f2e"
